@@ -1,8 +1,9 @@
 const express = require('express')
-const rotaLivro=require('./rotas/livros')
+const rotaLivro = require ("./rotas/livros")
 
 const app = express()
-app.use('/livros',rotaLivro)
+
+app.use('/livros', rotaLivro)
 
 const port = 8000
 
